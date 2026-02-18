@@ -1,0 +1,10 @@
+<head>
+    <title>Grace Notes Logo</title>
+    <link rel="stylesheet" href="style.css">
+<div class="logo">
+<h1>Grace Notes Christian Shop</h1>
+<p>Your one-stop shop for all your Jesus needs</p>
+<button>Shop Now</button>
+<footer>Copyright Grace Notes</footer>
+</div>
+</head>

@@ -1,0 +1,35 @@
+h1 {
+    font-family: cursive;
+    color: purple;
+    font-size: 48px;
+}
+
+.logo {
+    background-color: pink;
+    text-align: center;
+    padding: 20px;  
+    border: solid black 4px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: lightblue;
+    color: black
+    border: solid black 2px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: green;;
+    color: white;
+}
+
+p {
+    font-family: cursive;
+    color: purple;
+    font-size: 24px;
+}

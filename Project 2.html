@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <nav>
+            <img src="./assets/FES.svg" class="logo" alt="FES Logo">
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="discord">discord</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <header>
+            <div class="row">
+                <div>                <h1>Best place to learn frontend</h1>
+                <p class="subheader">Go from being a complete beginner to being a pro in just a few months</p>
+                <button>Get Started</button>
+            </div>
+            <figure>
+                <img src="./assets/laptop.png" alt="Photo of Laptop">
+            </figure>
+            </div>
+        </header>
+    </section>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="section_description">
+                <div class="section_description-wrapper">
+            <p class="section_description-para">Frontend Simplified is a community and educational platform that aims to make learning frontend development easy and fast. The best part about this program is, they assist you in building your own portfolio. This program also offers mentorship from individuals who have gone through this program before and from professionals in the field already.</p>
+            <p class="section_description-para">Frontend Simplified is a community and educational platform that aims to make learning frontend development easy and fast. The best part about this program is, they assist you in building your own portfolio. This program also offers mentorship from individuals who have gone through this program before and from professionals in the field already.</p>
+            </div>
+            <figure class="about__image--wrapper">
+                <img src="./assets/about.png" alt="About us">
+            </figure>
+        </div>
+        </section>
+        <section id="discord">
+            <h2>discord</h2>
+            <div class="section_description">
+            <figure class="section__imagr--wrapper">
+                <img src="./assets/discord.png" alt="Discord">
+            </figure>
+            <div class="section_description-wrapper">
+                <p class="section_description-para">Lorem ipsum dolor sit amer connecter adipisicing edit. Rescinds dolor quem valuates nihil nats anima recusance, aliquot volute enid commode repudiate vel distinction Porto dolour, connecter nunquam, fugs laborious tempera?
+                    <p class="section_description-para>Lorem ipsum dolor sit, abet connecter adipisicing edit. Nebo ea bandits berate non dignissimos provident quos cum molests, nats error gusto consequent similitude explicate aliquant aut mani sint volutes at.</p>
+                </p>
+            </div>
+        </section>
+        <section is="contact">
+            <h2>Contact Us</h2>
+            <form action="">
+                <input type="text" placeholder="Ex: john doe">
+                <input type="email" placeholder="Ex: John@example">
+                <textarea placeholder="Your Message">Write your message here...</textarea>
+                <button type="submit">Contact Us</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img class="footer__logo" src="./assets/FES.svg" alt="FES Logo">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+        </div>
+        <p>Copyright Frontend Simplified</p>
+    </footer>
+</body>
+
+</html>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+
+a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header {
+    background-color: #eadcff;
+    height:calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button {
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about,
+#discord,
+#contact,
+footer {
+    padding: 48px 0;
+}
+/*
+
+about section
+
+*/
+
+#about {
+    background-color: #f8ffdc
+}
+
+h2 { 
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 24px;
+}
+
+.section_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__image--wrapper {
+    width: 40%;
+    padding: 0 24px;
+}
+
+img { 
+    width: 100%;
+}
+
+.section_description-wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section_description-para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+
+/*
+
+discord section
+
+*/
+
+#discord {
+    background-color: #cefeff;
+}
+
+/*
+
+contact section
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size:20px;
+    padding: 6px 12px;
+}
+
+/*
+
+footer section
+
+*/
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__links {
+    padding: 16px;
+}
